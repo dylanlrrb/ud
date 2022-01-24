@@ -1,0 +1,7 @@
+*.zip
+videos/
+.DS_Store
+__pycache__/
+
+# datasets
+animals/
