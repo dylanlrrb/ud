@@ -3,5 +3,7 @@ videos/
 .DS_Store
 __pycache__/
 
+*.pth
+
 # datasets
 animals/
