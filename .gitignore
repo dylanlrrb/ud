@@ -3,6 +3,7 @@ videos/
 .DS_Store
 __pycache__/
 F_MNIST_data/
+pdfs/
 
 *.pth
 
