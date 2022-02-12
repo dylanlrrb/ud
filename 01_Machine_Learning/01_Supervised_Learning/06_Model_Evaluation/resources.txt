@@ -1,0 +1,6 @@
+A confusion matrix, also known as an error matrix, is an important component of classification when using machine learning. You can read this Wikipedia article on confusion matrices for examples and more information.
+https://en.wikipedia.org/wiki/Confusion_matrix
+
+Classification metrics from Stanford's CS229 notes.
+Afshine Amidi and Shervine Amidi discuss machine learning tips and tricks, including classification and regression metrics.
+https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks

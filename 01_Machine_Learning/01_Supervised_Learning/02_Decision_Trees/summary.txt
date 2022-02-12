@@ -1,0 +1,54 @@
+Akinator
+One way to introduce the concept of decision trees is by playing this fun game on the Internet. It's called the Akinator. The way it works is the genie will ask you questions about some character, and based on these questions, it will guess who it is. The questions will get more and more educated as the genie narrows down who the person is. This is the exact same thing decisions trees do. They continually ask you questions about the data until they narrow the information down well enough to make a prediction.
+
+Lesson outline
+This lesson will cover aspects of decision trees, including how they work and how they are built. We will talk about each of the following throughout this lesson.
+
+Recommendation applications
+Entropy
+Information gain
+Hyperparameters
+Decision trees in sklearn
+At a high level, Decision Trees are easy to understand because it is very similar to how our brains work in some situations. The more complex a situation comes, the deeper and wider the tree becomes. This lesson will show you how machine learning builds and uses these to make effective predictions.
+
+Decision Trees with depths of 1, 2, 3, and 4
+Decision Trees
+
+As with any real life data, not all Decision Trees are not usually completely balanced.
+
+A Balanced Decision Tree
+Decision Tree
+
+Learning Objectives
+By the end of the Decision Trees lesson, you should be able to
+
+Train Decision Trees to predict states
+Use Entropy to build decision trees, recursively
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+-----
+
+Congratulations! In this section, you learned all about decision trees, and how to use them to make predictions. This included the following topics.
+
+Recommendation applications
+Entropy
+Information gain
+Hyperparameters
+Decision trees in sklearn
+In the next section, we are going to learn more about some of the concepts we alluded to in this section—how to test and evaluate your model to see how it's performing. See you there!
+
+Glossary
+Key Term	Definition
+Entropy	The amount of freedom that a data point has to move around.
+Hyperparameter	Different aspects of a decision tree, such as depth, that can be tuned to create decision trees that generalize well to new problems.
+Information gain	Difference in entropy between the parent node and the average entropy in the children in a decision tree.

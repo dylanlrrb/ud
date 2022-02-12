@@ -1,0 +1,5 @@
+## DeepTraffic
+
+Another great application of deep learning is in simulating traffic and making driving decisions. You can find the DeepTraffic simulator (#idea) [here](https://github.com/lexfridman/deeptraffic). The network here is attempting to learn a driving strategy such that the car is moving as fast as possible using [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning). The network is rewarded when the car chooses actions that result in it moving fast. It's this feedback that allows the network to find a strategy of actions for optimal speed.
+
+Note: At the time of writing, the DeepTraffic competition is over and MIT has taken down its simulator page. For the purpose of learning how to fine-tune deep reinforcement learning hyperparameters to pass the DeepTraffic challenge, you can view one of the many possible solutions on [this YouTube video](https://www.youtube.com/watch?v=JC-bI0baVv0).

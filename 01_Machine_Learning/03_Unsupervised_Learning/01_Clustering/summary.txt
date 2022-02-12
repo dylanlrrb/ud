@@ -1,0 +1,91 @@
+Introduction
+Welcome to this course on unsupervised learning, one of the three branches of machine learning.
+
+Supervised Learning - you start with a label or a value that you are trying to predict
+
+Unsupervised Learning - you start grouping data together that does not have labels
+
+In this course, you will learn:
+
+Common techniques that are used to unsupervised learning
+Implementing these techniques in Scikit-learn
+Prerequisite
+To have a full engagement of the entire coursework, we recommend you to have the following prerequisites:
+
+Have beginner to intermediate level Python skills to perform basic data cleaning and manipulation.
+Be familiar with the Numpy, Pandas, Matplotlib Python libraries.
+Have a basic understanding of machine learning concepts such and model training and validating.
+Have a basic understanding of supervised learning concepts such as labels, prediction, forecasting, and linear regression.
+Have basic mathematics and statistics knowledge to perform simple probability calculations.
+Course Overview
+Clustering
+Hierarchical and Density Based Clustering
+Gaussian Mixture Models and Cluster Validation
+Dimensionality Reduction and PCA
+Random Projection and ICA
+Let's get set started!
+
+
+Course Outline
+Before we get started, let's take a quick look at what will be covered in this course on unsupervised learning.
+
+Unsupervised learning is all about understanding how to group our data when we either
+
+1. Do not have a label to predict. An example of this is using an algorithm to look at brain scans to find areas that may raise concern. You don't have labels on the images to understand what areas might raise a reason for concern, but you can understand which areas are most similar or different from one another.
+
+2. Are not trying to predict a label, but rather group our data together for some other reason! One example of this is when you have tons of data, and you would like to condense it down to a fewer number of features to be used.
+
+With that in mind, here are the topics for this lesson:
+
+I. Clustering
+Clustering is one of the most popular unsupervised approaches. In a first look at clustering, you will gain an understanding of what clustering your data means. Then, you will see how the k-means algorithm works. You will put your skills to work to find groupings of similar movies!
+
+II. Hierarchical and Density Based Clustering
+Another set of clustering algorithms takes an approach of using density based 'closeness' measures. At the end of the lesson, you will see how this can be used in traffic classification, as well as in anomaly detection (finding points that aren't like others in your dataset).
+
+III. Gaussian Mixture Models and Cluster Validation
+To extend the density based approaches, you will get some practice with gaussian mixture models. This technique is not far from what you learned in the previous lesson, and it is the last of the clustering algorithms you will learn before moving to matrix decomposition methods.
+
+IV. Principal Component Analysis
+Principal component analysis is one of the most popular decomposition methods available today. In this lesson, you will learn how matrix decomposition methods work conceptually. Then you will apply principal component analysis to images of handwritten digits to reduce the dimensionality of these images.
+
+V. Random Projection and Independent Component Analysis
+Another way to decompose data is through independent component analysis. In this lesson, you will see how this method can pull apart audio related to a piano, cello, and television that has been overlaid in the same file.
+
+-----
+
+Lesson Review
+Great job with this lesson! You now understand how to:
+
+Implement and describe the K-means algorithm
+Create feature scaling to optimize your K-means results
+Looking Forward
+In the next lesson, you will learn about other methods for clustering your data.
+
+Clustering Recap
+We just covered a bunch of information! Here is a quick recap!
+
+I. Clustering
+You learned about clustering, a popular method for unsupervised machine learning. We looked at three ways to identify clusters in your dataset.
+
+Visual Inspection of your data.
+Pre-conceived ideas of the number of clusters.
+The elbow method, which compares the average distance of each point to the cluster center for different numbers of centers.
+II. K-Means
+You saw the k-means algorithm for clustering data, which has 3 steps:
+
+Randomly place k-centroids amongst your data.
+Then repeat the following two steps until convergence (the centroids don't change):
+
+Look at the distance from each centroid to each point. Assign each point to the closest centroid.
+Move the centroid to the center of the points assigned to it.
+III. Concerns with K-Means
+Finally, we discussed some concerns with the k-means algorithm. These concerns included:
+
+Concern: The random placement of the centroids may lead to non-optimal solutions.
+Solution: Run the algorithm multiple times and choose the centroids that create the smallest average distance of the points to the centroids.
+
+Concern: Depending on the scale of the features, you may end up with different groupings of your points.
+Solution: Scale the features using Standardizing, which will create features with mean 0 and standard deviation 1 before running the k-means algorithm.
+
+

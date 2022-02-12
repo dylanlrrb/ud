@@ -1,0 +1,40 @@
+In this video, we first discussed the advantage and disadvantages of hierarchical clustering.
+
+Advantages:
+The resulting hierarchical clustering representations are very informative. They provide us additional ability to visualize the structure of the dataset.
+It is very potent when the dataset contains real hierarchical relationships.
+Disadvantages:
+It is sensitive to outliers and noise so data needs to be cleaned up beforehand.
+It is computationally intensive O(N^2)O(N 
+
+(#idea)
+One example of average linkage is Using Hierarchical Clustering of Secreted Protein Families to Classify and Rank Candidate Effectors of Rust Fungi.
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029847
+
+(#idea)
+Another example uses complete linkage to study Association between composition of the human gastrointestinal microbiome and development of fatty liver with choline deficiency
+https://www.ncbi.nlm.nih.gov/pubmed/21129376
+
+Visualizing DBSCAN Clustering: incredible Visualization of DBSCAN clustering. Allows you to change its parameters and see how it works on various datasets. Highly recommended!
+https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
+
+Advantage of DBSCAN
+No need to specify the number of clusters.
+It's flexible in the shapes and sizes of clusters.
+It handles noise.
+It handles outliers.
+Disadvantage of DBSCAN
+Border points that are reachable from two clusters are assigned to the cluster that finds them first. It's not guaranteed to return the same clustering.
+It has difficulty finding clusters of varying densities.
+For data with varying densities, you can use a variation of DBSCAN called HDBSCAN. Read this paper if you are interested in HDBSCAN: Hierarchical density based clustering
+https://www.researchgate.net/publication/315508524_hdbscan_Hierarchical_density_based_clustering
+
+Two applications that use DBSCAN:
+
+(#idea)
+Compare K-means and DBSCAN in classifying network traffic: Traffic Classification Using Clustering Algorithms.
+https://pages.cpsc.ucalgary.ca/~mahanti/papers/clustering.pdf
+
+(#idea)
+Anomaly detection using DBSCAN: Anomaly detection in temperature data using dbscan algorithm
+https://ieeexplore.ieee.org/abstract/document/5946052/

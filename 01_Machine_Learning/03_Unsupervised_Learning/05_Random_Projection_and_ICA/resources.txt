@@ -1,0 +1,41 @@
+Further Reading
+Paper: Random projection in dimensionality reduction: Applications to image and text data
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.8124&rep=rep1&type=pdf
+
+This paper examines using Random Projection to reduce the dimensionality of image and text data. It shows how Random Projection proves to be a computationally simple method of dimensionality reduction, while still preserving the similarities of data vectors to a high degree. The paper shows this on real-world datasets including noisy and noiseless images of natural scenes, and text documents from a newsgroup corpus.
+
+Paper: Random Projections for k-means Clustering
+https://papers.nips.cc/paper/3901-random-projections-for-k-means-clustering.pdf
+
+This paper uses Random Projection as an efficient dimensionality reduction step before conducting k-means clustering on a dataset of 400 face images of dimensions 64 × 64.
+
+Now, let's look at the one way to get WWcalled FastICA. It follows these steps:
+
+Center and whiten the dataset X.
+Choose an initial random matrix W = [W_1, W_2, W_3,... W_n]W=[W 
+
+Estimate WW.
+Decorrelate WW to prevent vectors from converting to the same values.
+Repeat from step 3 until WW converges.
+The math is a little bit complicated, and you don't need to know the details of estimating and decorrelating the matrix. However, it's important to know the assumptions that allow ICA to work.
+
+It assumes that the components are statistically independent
+It assumes that the components must have non-Gaussian distribution.
+If you want to dive deep into the math, you can read the paper: "Independent component analysis: algorithms and applications" (pdf)
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.322.679&rep=rep1&type=pdf
+
+
+
+ICA is commonly used in medical scanners such as brain scanners (EEG) or fMRIs
+
+(#idea)
+This paper: Independent Component Analysis of Electroencephalographic Data [PDF] is an example of how ICA is used to transform EEG scan data to do blind source separation. For example, on the left are the readings of 14 channels from an EEG scan that lasted 4.5 seconds. On the right are the independent components extracted from that dataset:
+http://papers.nips.cc/paper/1091-independent-component-analysis-of-electroencephalographic-data.pdf
+
+Image from the paper. On the left are the readings of 14 channels from an EEG scan that lasted 4.5 seconds. On the right are the independent components extracted from that dataset:
+ICA has been used for financial data too. This paper: Applying Independent Component Analysis to Factor Model in Finance [PDF]
+https://pdfs.semanticscholar.org/a34b/e08a20eba7523600203a32abb026a8dd85a3.pdf
+applies ICA to a factor model and tries to isolate what caused the stocks to go up and down. 
+
+And this paper: Independent Component Analysis for Financial Time Series uses ICA to analyze the cash flow over 140 weeks
+https://ieeexplore.ieee.org/document/882456

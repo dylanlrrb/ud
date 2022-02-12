@@ -1,0 +1,62 @@
+In this section, we'll focus on two questions:
+
+The first question is, how well is my model doing? So, let's say we've trained our machine learning model and the question is, is this model good or not? So, we're going to learn metrics to tell us if it is good or not.
+And the second question is, once we figure that out, how do we improve it based on these metrics?
+How well is my model doing? How do we improve the model based on metrics?
+How well is my model doing? How do we improve the model based on metrics?
+
+Lesson outline
+This lesson will cover aspects related to model evaluation. We will talk about each of the following topics in this lesson.
+
+Testing your models
+Confusion matrix
+Accuracy
+When accuracy won't work
+False negatives and positives
+Precision and recall
+F1 score
+F-beta score
+ROC curve
+Classification in sklearn
+Regression in sklearn
+Learning Objectives
+By the end of the Model Evaluation Metrics lesson, you should be able to
+
+Learn about different metrics to measure model success
+Calculate accuracy, precision, and recall to measure the performance of your models
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+-----
+
+This lesson will cover aspects related to model evaluation. We will talk about each of the following topics in this lesson.
+
+Testing your models
+Confusion matrix
+Accuracy
+When accuracy won't work
+False negatives and positives
+Precision and recall
+F1 score
+ROC curve
+Classification in sklearn
+Regression in sklearn
+
+
+Glossary
+Key Term	Definition
+Accuracy	Accuracy is the answer to the question, Out of all the patients, how many did we classify correctly?
+F1-score	Metric that conveys the balance between the precision and the recall.
+Mean Absolute Error(MAE)	Regression metric that adds the absolute values of the distances from the points to the line.
+Mean-Squared Error (MSE)	The most used metric for optimization in regression problems that adds the squares of the distances between the points and the line.
+Precision	precision will be the answer to the question, Out of all the points predicted to be positive, how many of them were actually positive?
+R2	Regression metric that represents the 'amount of variability captured by a model, or the average amount you miss across all the points and the R2 value as the amount of the variability in the points that you capture with a model. R2 score is based on comparing a model to the simplest possible model. If the R2 score is close to 1, then the model is good

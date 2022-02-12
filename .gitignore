@@ -3,9 +3,14 @@ videos/
 .DS_Store
 __pycache__/
 F_MNIST_data/
+raw/
 pdfs/
 
 *.pth
 
 # datasets
 animals/
+Udacity_AZDIAS_Subset.csv
+Udacity_CUSTOMERS_Subset.csv
+landmark_images/
+flower_photos/

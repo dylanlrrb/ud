@@ -1,0 +1,62 @@
+Naive Bayes is a supervised machine learning algorithm that can be trained to classify data into multi-class categories. In the heart of the Naive Bayes algorithm is the probabilistic model that computes the conditional probabilities of the input features and assigns the probability distributions to each of the possible classes. This algorithm has great benefits such as being easy to implement and very fast to train.
+
+In this lesson, we will review the conditional probability and Bayes Rule. Next, we will learn how the Naive Bayes algorithm works. At the end of the lesson, you will do a coding exercise to apply Naive Bayes in one of the Natural Language Processing (NLP) tasks, ie. spam emails classification, using the Scikit-Learn library.
+
+Naive Bayes classification algorithm
+Naive Bayes classification algorithm
+
+Lesson outline
+This lesson will cover aspects of the Naive Bayes algorithm as discussed above, including the following.
+
+Bayes Theorem
+Bayesian Learning
+Naive Bayes Algorithm
+Building a spam classifier
+Learning Objectives
+By the end of the Naive Bayes lesson, you should be able to
+
+Apply Bayes' rule to predict cases of spam messages using the Naive Bayes Algorithm
+Train models using Bayesian Learning
+Complete an exercise that uses Bayesian Learning for natural language processing.
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+
+----------
+
+Congratulations! That was the end of the Naive Bayes section. You now know how to implement Naive Bayes and use it to make predictions in real data, such as detecting spam emails.
+
+
+
+You learned how the Naive Bayes algorithm applies probabilistic computation in a classification task. This algorithm falls under the Supervised Machine Learning algorithm, where we can train a set of data and label them according to their multi-class categories.
+
+There are several advantages to using it:
+
+One of the major advantages that Naive Bayes has over other classification algorithms is its ability to handle an extremely large number of features.
+It performs well even with the presence of irrelevant features and is relatively unaffected by them. It has is its relative simplicity.
+It works well right out of the box and tuning its parameters is rarely ever necessary, except usually in cases where the distribution of the data is known.
+It rarely ever overfits the data.
+Its model training and prediction times are very fast for the amount of data it can handle.
+
+
+All in all, Naive Bayes' really is a gem of an algorithm!
+
+
+
+Glossary
+Key Term	Definition
+Conditional probability	In probability theory, conditional probability is a measure of the probability of an event occurring given that another event has (by assumption, presumption, assertion or evidence) occurred.
+Naive assumptions	The assumpiot that assume probabilities are independent.
+Posterior probabilities	Posterior probabilities are what we inferred after we knew that R occurred
+Prior probabilities	Prior probabilities are what we knew before we knew that R occurred.
+Sensitivity	How often a test correctly gets a positive result for the condition that's being tested for (also known as the “true positive” rate).The true-positive recognition rate
+Specificity	The proportion of truly negative cases that were classified as negative. The true-negative recognition rate

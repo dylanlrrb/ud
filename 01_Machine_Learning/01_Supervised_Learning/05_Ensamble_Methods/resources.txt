@@ -1,0 +1,35 @@
+this Wikipedia article on the bias-variance tradeoff discusses the central problem in supervised learning.
+https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+
+BaggingClassifier
+Discusses how the Bagging classifier is used to fit base classifiers each on random subsets of the original dataset and then aggregate their individual predictions (either by voting or by averaging) to form a final prediction.
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingClassifier.html#sklearn.ensemble.BaggingClassifier
+
+RandomForestClassifier
+Discusses how the RandomForest classifier fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier
+
+AdaBoostClassifier
+Discusses how the AdaBoost classifier fits on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases.
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier
+
+Another really useful guide for ensemble methods, which can also all be extended to regression problems, can be found in the documentation here.
+http://scikit-learn.org/stable/modules/ensemble.html
+
+The original paper - A link to the original paper on boosting by Yoav Freund and Robert E. Schapire.
+https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf
+
+An explanation about why boosting is so important - A great article on boosting by a Kaggle master, Ben Gorman.
+http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/
+
+A useful Quora post - A number of useful explanations about boosting.
+https://www.quora.com/What-is-an-intuitive-explanation-of-Gradient-Boosting
+
+Here is the original paper from Freund and Schapire that is a short overview paper introducing the boosting algorithm AdaBoost, and explains the underlying theory of boosting, including an explanation of why boosting often does not suffer from overfitting as well as boosting’s the relationship to support-vector machines.
+https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf
+
+A follow-up paper from the same authors regarding several experiments with Adaboost.
+https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf
+
+A great tutorial by Schapire explaining the many perspectives and analyses of AdaBoost that have been applied to explain or understand it as a learning method, with comparisons of both the strengths and weaknesses of the various approaches.
+http://rob.schapire.net/papers/explaining-adaboost.pdf

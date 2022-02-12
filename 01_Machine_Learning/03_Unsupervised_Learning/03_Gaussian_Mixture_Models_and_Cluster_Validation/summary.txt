@@ -1,0 +1,34 @@
+Course Overview
+Clustering
+Hierarchical and Density Based Clustering
+Gaussian Mixture Models and Cluster Validation
+Dimensionality Reduction and PCA
+Random Projection and ICA
+Lesson Overview
+In this lesson, we will look at one more clustering technique called Gaussian Mixture Model clustering. It is a soft clustering algorithm, meaning every sample in the dataset will belong to every cluster but have different levels of membership in each cluster.
+
+Gaussian Mixture Modeling clustering:
+
+Looks at all the points in a dataset
+And clusters based on the shape of a Gaussian distribution that the data points seem to take
+In this lesson, you will:
+
+Cluster data with Gaussian Mixture Models
+Optimize Gaussian Mixture Models with Expectation Maximization
+Understand the cluster analysis process
+Evaluate results using cluster validation
+
+-----
+
+Lesson Recap
+Congratulation on completing this lesson on Gaussian Mixture Model clustering and cluster validation. You can now:
+
+Cluster data with Gaussian Mixture Models
+Optimize Gaussian Mixture Models with Expectation Maximization
+Understand the cluster analysis process
+Evaluate results using cluster validation
+You've learned to visualize your findings and interpret your results using the scikit-learn library and your own mathematical equations. Way to go!
+
+Looking Ahead
+In the next lesson, you will learn to refine your models using unsupervised learning techniques that transform your data instead of clustering. You'll also learn how to reduce the number of features in your dataset down to those that are most important for the questions you need to be answered.
+

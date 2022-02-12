@@ -1,0 +1,6 @@
+How Does K-Means Work?
+The blog by Naftali Harris is spectacular at showing you how k-means works for a number of situations. You can try it yourself!
+https://www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+As an exercise for yourself, you might try coding up the algorithm yourself in Python. This blog by Mubaris Hassan may be helpful if you decide to take on this task!
+https://mubaris.com/posts/kmeans-clustering/

@@ -1,0 +1,60 @@
+Do you think you understand PCA well enough yet to explain it in a way that would make sense to your grandmother?
+Here is an interesting StackExchange post that does just that, and with animated graphics! https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues
+https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues
+
+Further Exploration
+If you're interested in a deeper study of these topics, here are a couple of helpful blog posts and a research paper:
+
+https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/
+https://elitedatascience.com/dimensionality-reduction-algorithms
+http://www.ai.mit.edu/projects/jmlr/papers/volume3/guyon03a/source/old/guyon03a.pdf
+
+Principal Component Properties
+There are two main properties of principal components:
+
+They retain the most amount of information in the dataset. In this video, you saw that retaining the most information in the dataset meant finding a line that reduced the distances of the points to the component across all the points (same as in regression!).
+The created components are orthogonal to one another. So far we have been mostly focused on what the first component of a dataset would look like. However, when there are many components, the additional components will all be orthogonal to one another. Depending on how the components are used, there are benefits to having orthogonal components. In regression, we often would like independent features, so using these components in regression now guarantees this.
+This is a great post answering a number of common questions on PCA.
+
+https://stats.stackexchange.com/questions/110508/questions-on-pca-when-are-pcs-independent-why-is-pca-sensitive-to-scaling-why
+
+
+What Are Eigenvalues and Eigenvectors?
+The mathematics of PCA isn't really necessary for PCA to be useful. However, it can be useful to fully understand the mathematics of a technique to understand how it might be extended to new cases. For this reason, the page has a few additional references which go more into the mathematics of PCA.
+
+If you dive into the literature surrounding PCA, you will without a doubt run into the language of eigenvalues and eigenvectors. These are just the math-y words for things you have already encountered in this lesson.
+
+An eigenvalue is the same as the amount of variability captured by a principal component, and an eigenvector is a principal component itself. To see more on these ideas, take a look at the following three links below:
+
+Eigenvalue
+https://mathworld.wolfram.com/Eigenvalue.html
+
+Eigenvalue and eigenvector
+https://www.mathsisfun.com/algebra/eigenvalue.html
+
+A great introduction into the mathematics of principal components analysis.
+http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf
+
+(#idea)
+An example of using PCA in python by one of my favorite data scientists.
+https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html
+
+An example of PCA from the scikit learn documentation.
+http://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html#sphx-glr-auto-examples-applications-plot-face-recognition-py
+
+Where is PCA Used?
+In general, PCA is used to reduce the dimensionality of your data. Here are links to some specific use cases beyond what you covered in this lesson:
+
+(#idea)
+PCA for microarray data.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2669932/
+
+(#idea)
+PCA for anomaly detection.
+https://arxiv.org/pdf/1801.01571.pdf
+
+(#idea)
+PCA for time series data.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.853.2380&rep=rep1&type=pdf
+
+If you ever feel overwhelmed by the amount of data you have, you can look to PCA to reduce the size of your dataset, while still retaining the maximum amount of information (though this does often come at the cost of reducing your data interpretability).

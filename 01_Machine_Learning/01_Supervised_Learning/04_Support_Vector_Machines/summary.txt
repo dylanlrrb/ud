@@ -1,0 +1,26 @@
+Lesson Review
+
+
+Support Vector Machines (SVM) is a powerful algorithm for classification which also finds the best boundary. We explored topics related to Maximum Margin Classifier, Classification with Inseparable Classes, and Kernel Methods
+
+This lesson covered the following topics.
+
+Minimizing distances
+Error functions and the use of the Preceptron algorithm
+The C parameter
+Polynomial Kernal
+RBF Kernal
+SVMs in sklearn
+
+-----
+
+Glossary
+Key Term	Definition
+C	Also referred to as the C hyper-parameter - determines how flexible we are willing to be with the points that fall on the wrong side of our dividing boundary. Large C is mostly the classification error. Small C is mostly margin error.
+Classification error	An error in prediction caused by a false negative response or a false positive response.
+Error function	Classification error + margin error. Used to minimize SVG
+Gamma	A hyperparameter that we tune during training to alter the type of curve from wide ones to very narrow.
+Kernal Trick	A more efficient and less expensive way to transform data into higher dimensions, especially in the SVM algorithm
+Marthin error	The distance between the 2 boundary lines and prediction line. Use to minimize gradient descent
+Ploynomial Kernel	A kernel function commonly used with SVM that allows learning of non-linear models.
+RBF	Radial Basis Functions are used in machine learning to find a non-linear classifier or regression lines, especially in SVM.	

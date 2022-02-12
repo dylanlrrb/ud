@@ -1,0 +1,11 @@
+Support Vector machine described in a textbook (page 337)
+The chapter discusses the support vector machine (SVM) algorithm and explains and demonstrates why they are often considered one of the best “out of the box” classifiers
+https://static1.squarespace.com/static/5ff2adbe3fe4fe33db902812/t/6062a083acbfe82c7195b27d/1617076404560/ISLR%2BSeventh%2BPrinting.pdf
+
+The Wikipedia page related to SVMs
+Wikipedia goes into depth on how and why SVMs are one of the most robust prediction methods, being based on statistical learning frameworks or VC theory proposed by Vapnik (1982, 1995) and Chervonenkis (1974).
+https://en.wikipedia.org/wiki/Support_vector_machine
+
+The derivation of SVMs from Stanford's CS229 notes.
+Starting on page 11, Andrew Ng talks about margins and the idea of separating data with a large “gap, ” the optimal margin classifier, and kernels.
+http://cs229.stanford.edu/notes2020fall/notes2020fall/cs229-notes3.pdf

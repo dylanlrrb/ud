@@ -1,0 +1,36 @@
+In this lesson, you will learn about:
+
+Random projection
+Implement random projection in scikit-learn
+Independent component analysis (ICA)
+FastICA algorithm
+Implement ICA in scikit-learn
+Some ICA applications
+
+-----
+
+Random Projection and ICA
+Congratulations, this lesson is hard! Here is a quick recap.
+
+1. Random Projection
+The random projection takes a dataset with high dimensions and transforms it to a much lower dimension. It is computationally more efficient than PCA. The dimension of transformed data is determined by an error term: epsilon, which decides how much distance (information) from the original dataset to preserve.
+
+2. Random Projection in Sklean
+sklearn has a random_projection to implement random projection
+
+3. Independent Component Analysis (ICA)
+Independent component analysis (ICA) assumes that the features are mixtures of independent sources, and it tries to isolate these independent sources from the mixture. ICA needs as many observations as the original signals in order to separate them.
+
+4. FastICA Algorithm
+Finding the unmixing matrix is the key to isolate the source signals. FastICA is a way to evaluate the unmixing matrix.
+
+ICA makes the following assumptions:
+
+The components are statistically independent
+The components must have non-Gaussian distribution.
+5. ICA in Sklearn
+From sklearn.decomposition, you can import FastICA to implement ICA.
+
+6. ICA Application
+ICA is commonly used in medical scanners such as brain scanners and fMRIs. It has also been used in financial data such as factor models and time-series financial data.
+

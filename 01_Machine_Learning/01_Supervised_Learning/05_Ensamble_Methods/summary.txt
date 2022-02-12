@@ -1,0 +1,74 @@
+Lesson outline
+This lesson will discuss how to join existing models to create an even better model using ensemble methods. While we will focus on two primary ensemble methods, bagging and boosting, this lesson will cover each of the following topics.
+
+Ensembles
+Random forests
+Bagging: bootstrapping and aggregating
+Boosting: AdaBoost
+Weighting the models
+Combining the models
+AdaBoost in sklearn
+
+
+At a high level, Ensemble Methods is about brining together multiple models (called weak learners) so that the result is an incredibly powerful and more accurate model (called a strong learner). There are several strategies and tricks involved in this, and this lesson will especially focus on bagging and boosting.
+
+Funnel that takes weak learning models and combines them into strong learning models.
+Learning Objectives
+By the end of the Ensemble Methods lesson, you should be able to
+
+Build data visualizations for quantitative and categorical data
+Create pie, bar, line, scatter, histogram, and boxplot charts
+Build professional presentations
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+-----
+
+Lesson outline
+This lesson will discuss how to join existing models to create an even better model using ensemble methods. While we will focus on two primary ensemble methods, bagging and boosting, this lesson will cover each of the following topics.
+
+Ensembles
+Random forests
+Bagging: bootstrapping and aggregating
+Boosting: AdaBoost
+Weighting the models
+Combining the models
+AdaBoost in sklearn
+
+
+At a high level, Ensemble Methods is about brining together multiple models (called weak learners) so that the result is an incredibly powerful and more accurate model (called a strong learner). There are several strategies and tricks involved in this, and this lesson will especially focus on bagging and boosting.
+
+Funnel that takes weak learning models and combines them into strong learning models.
+Learning Objectives
+By the end of the Ensemble Methods lesson, you should be able to
+
+Build data visualizations for quantitative and categorical data
+Create pie, bar, line, scatter, histogram, and boxplot charts
+Build professional presentations
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+Glossary
+Key Term	Definition
+AdaBoost	(Ada)ptive (Boost)ing, is an ensemble ethod technique that re-assigns weights to each instance, with higher weights to incorrectly classified instances.
+Bagging	(B)ootstrap (agg)regating is an ensemble algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting, by sampling subsets of data.
+Ensembles	You can combine (or ensemble) models in a way that makes the combination of these models better at predicting than the individual models.
+Random forest	Using 2+ decision trees on randomly picked columns.

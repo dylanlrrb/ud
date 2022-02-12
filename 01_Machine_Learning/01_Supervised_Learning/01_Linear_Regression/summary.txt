@@ -1,0 +1,64 @@
+The two main families of algorithms and predictive machine learning are:
+
+Classification
+Classification answers questions of the form yes-no. For example, is this email spam or not, or is the patient sick or not.
+Regression
+Regression answers questions of the form how much. For example, how much does this house cost? Or how many seconds do expect someone to watch this video?
+At the highest level, the entire topic of linear regression is based around the idea of trying to draw a line (called 'fitting') through an entire dataset of points. The algorithm uses the value of every point in the dataset to find the optimum line equation. Ultimately, the equation of that line can be used to plot new data. There are tricks and techniques for doing this. Sometimes this is perfectly clear and other times it is quite challenging, all based on the type of data in the dataset. Sometimes we want to split the data into different groups, other times we just want a line down the 'middle'. But rarely, if ever, is it perfect, much like data in real life. There are ways to determine how close you are getting, or whether your line is in the best possible place, in the best possible shape, and at the best possible slope. All pages in this lesson are centered around these ideas.
+
+4 charts with data and lines through them to show Linear Regression
+Linear Regression
+
+Lesson outline
+In this lesson, we will focus on regression. What do you need to know about regression? We will talk about each of the following throughout this lesson.
+
+Fitting a line through data
+Gradient descent
+Errors
+Linear regression in Scikit-learn
+Polynomial regression
+Regularization
+Feature scaling
+Learning Objectives
+By the end of the Linear Regression lesson, you should be able to
+
+Identify the difference between Regression and Classification
+Train a Linear Regression model to predict values
+Predict states using Logistic Regression
+Where are you in the course?
+Machine Learning Brid's Eye View
+Linear Regression
+Perceptron Algorithm
+Decision Trees
+Naive Bayes
+Support Vector Machines
+Ensemble Methods
+Model Evaluation Metrics
+Training and Tuning
+Project
+
+---
+
+Lesson Review
+In this lesson, you were introduced to linear models. Specifically, you saw:
+
+Gradient descent is a method to optimize your linear models.
+Multiple Linear Regression is a technique for when you are comparing more than two variables.
+Polynomial Regression for relationships between variables that aren't linear.
+Regularization is a technique to assure that your models will not only fit the data available but also extend to new situations.
+
+
+Glossary
+Key Term	Definition
+Batch gradient descent	The process of repeatedly calculating errors for all points at the same time and updating weights accordingly.
+Error	The vertical distance from a given point to the predictive line.
+Feature scaling	Transforming data into a common range of values using standardizing or normalizing.
+Gradient descent	The reduction of the error by taking the derivative of the error function with respect to the weights.
+L1 Regularization	Absolute values of the coefficients of the model are used for regularization.
+L2 Regularization	Squares of the values of the coefficients of the model are used for regularization.
+Lambda	The amount by which we punish complex models during the process of regularization.
+Learning rate	The amount by which we adjust the weights of our equation. The larger the learning rate, the larger our adjustments.
+Mean absolute error	The sum of the absolute value of all errors divided by the total number of points.
+Mean squared error	The sum of the square of all errors divided by the total number of points.
+Regularization	Taking into consideration the complexity of the model when evaluating regression models.
+Stochastic gradient descent	The process of repeatedly calculating errors one point at a time and updating weights accordingly.

@@ -1,0 +1,50 @@
+Course Overview
+Clustering
+Hierarchical and Density Based Clustering
+Gaussian Mixture Models and Cluster Validation
+Dimensionality Reduction and PCA
+Random Projection and ICA
+Lesson Overview
+In the previous lesson, you've learned the K-means, which is useful when:
+
+The number of clusters is known
+Clusters are circular or spherical, or hyper-spherical
+However, this also makes K-means very limited because it relies on the distance to the centroids to cluster data. This is particularly true when datasets have an irregular distribution, such as:
+
+Random Distribution
+Two Cresent Dataset
+Two Rings Dataset
+In this lesson, you will work with an array of dataset distributions to learn more advanced clustering techniques.
+
+In this lesson, we will first talk about hierarchical clustering, which provides us a visual of how clusters relate to each other. Then we will discuss density based clustering, which clusters data based on the density of data.
+
+Topics covered in the lessons are:
+
+Hierarchical clustering
+Single-link clustering
+Complete-link
+Average-link
+Ward's method
+Hierarchical clustering implementation
+Density based clustering (DBSCAN)
+DBSCAN implementation
+
+-----
+
+Lesson Recap
+We just covered a bunch of information! Here is a quick recap!
+
+I. Hierarchical Clustering
+You learned about different methods in hierarchical clustering. We looked at four methods:
+
+Single-link: merge clusters based on the nearest points within the clusters.
+Complete-link: merge clusters based on the farthest points within the clusters.
+Average-link: merge clusters based on the average distance between all points within the clusters.
+Ward's method: merge clusters that minimize the variance
+II. Density-based Clustering
+We saw the density-based spatial clustering in application with noise (DBSCAN).
+
+DBSCAN clusters data based on the density.
+DBSCAN is able to handle noise and outliers.
+DBSCAN needs a search distance \epsilonϵ to define the search area, and a minimum number of points in a neighborhood to determine the core points
+DBSCAN does not require the number of clusters to be predefined.

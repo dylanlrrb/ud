@@ -1,0 +1,43 @@
+GMM Examples & Applications
+Gaussian Mixture Model clustering is a useful and powerful clustering algorithm.
+
+GMM Advantages :
+
+Soft clustering – sample membership of multiple clusters, for example, classifying documents into multiple topics or categories
+Cluster shape flexibility
+GMM Disadvantages :
+
+Sensitive to initialization values
+Possible to converge to a local optimum
+Slow convergence rate
+The following resources provide some use cases for using GMM clustering to draw meaning from very large datasets.
+
+(#idea)
+Paper: Nonparametric discovery of human routines from sensor data [PDF]
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.681.3152&rep=rep1&type=pdf
+
+(#idea)
+Paper: Application of the Gaussian mixture model in pulsar astronomy [PDF]
+https://arxiv.org/abs/1205.6221
+
+(#idea)
+Paper: Speaker Verification Using Adapted Gaussian Mixture Models [PDF]
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.338&rep=rep1&type=pdf
+
+(#idea)
+Paper: Adaptive background mixture models for real-time tracking [PDF]
+http://www.ai.mit.edu/projects/vsam/Publications/stauffer_cvpr98_track.pdf
+
+(#idea)
+Video: https://www.youtube.com/watch?v=lLt9H6RFO6A
+https://www.youtube.com/watch?v=lLt9H6RFO6A
+
+
+----
+
+Link: Details of the Adjusted Rand index [PDF]
+http://faculty.washington.edu/kayee/pca/supp.pdf
+
+Density-Based Clustering Validation (PDF)
+http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83C3BD5E078B1444CB26E243975507E1?doi=10.1.1.707.9034&rep=rep1&type=pdf
+
