@@ -5,6 +5,8 @@ __pycache__/
 F_MNIST_data/
 raw/
 pdfs/
+.python-version
+.vscode/
 
 *.pth
 
