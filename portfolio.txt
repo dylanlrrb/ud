@@ -3,24 +3,24 @@ deep learning final
 unsupervised learning final
 siganl separation
 cat dog classifier
-tSNE on sentiment analysis
-comparing naive bayes to neural net for bag of words sentiment analysis
 background removal (am I reshaping rather than viewing anywhere?)
-genomics PCA
-(linting of projects)
-https://stackoverflow.com/questions/58976685/type-check-jupyter-notebooks-with-mypy
-https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
-(modal that pops up with info/summary before allowing you to poceed to the repo)
-(colab of project also)
-(web app link if available)
-(simple udacity version then applied to a more complex problem)
+tSNE or PCA on penultimate layer of landmark classifier
+elasticsearch with vector similarity of images (webapp)
 style transfer + web app
 [https://www.cv-foundation.org/openaccess/content\_cvpr\_2016/papers/Gatys\_Image\_Style\_Transfer\_CVPR\_2016\_paper.pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 Dermatologist AI
+genomics PCA
+convolutional layer dimension calculator
+(linting of projects)
+https://stackoverflow.com/questions/58976685/type-check-jupyter-notebooks-with-mypy
+https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
+(simple udacity version then applied to a more complex problem)
+
 
 custom cnn trained on cat/dog images, visualization of activation at each convolution (np pooling just using stride to reduce size)
 Looking at the feature maps that a CNN creates https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573
 (look at feature maps in a real time web app?) https://experiments.withgoogle.com/what-neural-nets-see
+https://discuss.pytorch.org/t/how-to-access-input-output-activations-of-a-layer-given-its-parameters-names/53772
 
 how do you go backwards through a cnn to generate an image
 https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce
