@@ -9,6 +9,7 @@ pdfs/
 .vscode/
 
 *.pth
+*.pt
 
 # datasets
 animals/
