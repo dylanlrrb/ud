@@ -7,6 +7,7 @@ raw/
 pdfs/
 .python-version
 .vscode/
+gif/
 
 *.pth
 *.pt

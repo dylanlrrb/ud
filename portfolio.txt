@@ -1,41 +1,53 @@
+(linting of projects)
+https://stackoverflow.com/questions/58976685/type-check-jupyter-notebooks-with-mypy
+https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
+
 Supervised learning final
 deep learning final
 unsupervised learning final
 siganl separation
-cat dog classifier
 background removal (am I reshaping rather than viewing anywhere?)
-tSNE or PCA on penultimate layer of landmark classifier
-elasticsearch with vector similarity of images (webapp)
-style transfer + web app
-[https://www.cv-foundation.org/openaccess/content\_cvpr\_2016/papers/Gatys\_Image\_Style\_Transfer\_CVPR\_2016\_paper.pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
+tSNE on penultimate layer of landmark classifier
+elasticsearch with vector similarity of images (blog post)
+style transfer notebook (too slow for web app, just do notebook until you inderstand how to make it fast)
+paint a picture based on activation of a category
 Dermatologist AI
 genomics PCA
-convolutional layer dimension calculator
-(linting of projects)
-https://stackoverflow.com/questions/58976685/type-check-jupyter-notebooks-with-mypy
-https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
-(simple udacity version then applied to a more complex problem)
+re-do cat dog app with mobile net and tensorflow js,
+  go thriugh tensor flow tutorials
+  figure out how to train on PC then use in app with webcam
+  figure out deploy scripts for demo projects
+  add deploy scripts to other demos nad make sure demos are mobile responsive too
 
-
-custom cnn trained on cat/dog images, visualization of activation at each convolution (np pooling just using stride to reduce size)
-Looking at the feature maps that a CNN creates https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573
-(look at feature maps in a real time web app?) https://experiments.withgoogle.com/what-neural-nets-see
+look at feature maps in a real time web app
+https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573
+https://experiments.withgoogle.com/what-neural-nets-see
 https://discuss.pytorch.org/t/how-to-access-input-output-activations-of-a-layer-given-its-parameters-names/53772
 
+deep dream actual implementation 
 how do you go backwards through a cnn to generate an image
 https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce
 https://www.alanzucconi.com/2015/07/06/live-your-deepdream-how-to-recreate-the-inceptionism-effect/
 https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
 
 Web app for de-noising an image and or sound
-web app fora adding color to an image
-What else are autoencoders good for?
-(find a paper and implement the ideas)
+web app for adding color to an image
 3D MNIST
-autoencoder for taking a 2d image of a cell and turning it intl a 3d volume?
+autoencoder for taking a 2d image of a cell and turning it into a 3d volume?
 https://stackoverflow.com/questions/47373421/from-2d-to-3d-using-convolutional-autoencoder
 https://www.allencell.org/3d-cell-viewer.html
 https://www.allencell.org/data-downloading.html
+What else are autoencoders good for?
+(find a paper and implement the ideas)
+
+Make a notebook exploring all these style transfer methods (https://www.youtube.com/watch?v=y54wAlE04qU)
+condenser networks
+Then make a real time web app for style transfer
+[paper tutorial is based on](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
+[fast in browser style transfer](https://reiinakano.com/arbitrary-image-stylization-tfjs/)
+[blog post about it](https://magenta.tensorflow.org/blog/2018/12/20/style-transfer-js/)
+[paper it is based on](https://arxiv.org/pdf/1705.06830.pdf)
+
 
 some app that helps with repetitive work in the legal field?
 trying to solve problems different domain areas that I'm unfamilair with
