@@ -49,9 +49,9 @@ General Resources: [1](https://www.youtube.com/watch?v=iX5V1WpxxkY), [2](http://
 
 Sequence model type explaniations: [1](https://machinelearningmastery.com/models-sequence-prediction-recurrent-neural-networks/), [2](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html), [3](https://jinglescode.github.io/2020/05/21/three-types-sequence-prediction-problems/), [4](https://wandb.ai/ayush-thakur/dl-question-bank/reports/LSTM-RNN-in-Keras-Examples-of-One-to-Many-Many-to-One-Many-to-Many---VmlldzoyMDIzOTM)
 ##### To do:
-- TV script (one to many)
+- TV script (one to many, just a decoder?)
 - Word to vector (negative sampling explored) [1](https://gist.github.com/GavinXing/9954ea846072e115bb07d9758892382c), [2](https://stackoverflow.com/questions/62456558/is-one-hot-encoding-required-for-using-pytorchs-cross-entropy-loss-function)
-- Sentiment analysis of movie reviews (sequence to one) [1](https://stackoverflow.com/questions/54892813/what-is-the-difference-between-sequence-to-sequence-and-sequence-to-one-regressi)
+- Sentiment analysis of movie reviews (many to one, just an encoder?) [1](https://stackoverflow.com/questions/54892813/what-is-the-difference-between-sequence-to-sequence-and-sequence-to-one-regressi)
 - project with seq2seq without attention (translation in order to compare to w/ attention?)
 - Translation with Attention project (seq2seq w/ attention) + class activation map of attention matrix as sentence is translated [1](https://www.tensorflow.org/text/tutorials/nmt_with_attention), [2](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html), [3](https://www.quora.com/Why-in-a-seq2seq-RNN-model-do-we-ignore-the-output-of-the-encoder-and-just-pass-to-the-decoder-the-state-of-the-encoder), [4](http://blog.echen.me/2017/05/30/exploring-lstms/)
 - Image captioning with attention, visualizing focused parts of image attention is given to [1](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
