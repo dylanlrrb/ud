@@ -1,9 +1,9 @@
 ### Machine Learning
 ##### To do:
-- Supervised learning final
-- unsupervised learning final
-- siganl separation
-- background removal (am I reshaping rather than viewing anywhere? need to speed it up)
+- (READY) Supervised learning final
+- (READY) unsupervised learning final
+- (READY) siganl separation
+- (READY) background removal (am I reshaping rather than viewing anywhere? need to speed it up)
 - genomics PCA
 ##### Ideas:
 - Brain wave separation
@@ -13,13 +13,13 @@
 Different tpyes of convolutions: https://medium.com/codex/7-different-convolutions-for-designing-cnns-that-will-level-up-your-computer-vision-project-fec588113a64
 
 ##### To do:
-- CFIAR classification final
-- tSNE on penultimate layer of landmark classifier
+- (READY) CFIAR classification final
+- (READY) tSNE on penultimate layer of landmark classifier
 - elasticsearch with vector similarity of images (blog post)
-- style transfer notebook, slow backprop method
-- backprop painting [1](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
+- (READY) style transfer notebook, slow backprop method
+- (READY) backprop painting [1](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
 - Dermatologist AI
-- cat/dog classifier in tensorflow (DEMO)
+- (READY) cat/dog classifier in tensorflow (DEMO)
 - Class activation Map/ Saliency Map/ Attribution Maps [1](https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d), [2](https://openaccess.thecvf.com/content/ICCV2021/papers/Ruiz_Generating_Attribution_Maps_With_Disentangled_Masked_Backpropagation_ICCV_2021_paper.pdf), [3](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce)
 - View at feature maps in a real time web app (DEMO) [1](https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573), [2](https://experiments.withgoogle.com/what-neural-nets-see), [3](https://discuss.pytorch.org/t/how-to-access-input-output-activations-of-a-layer-given-its-parameters-names/53772)
 - Multi box detector using mobile net + demo app (first exporation in pytorch then implementationin a web app) [1](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection), [2](https://medium.com/axinc-ai/mobilenetssd-a-machine-learning-model-for-fast-object-detection-37352ce6da7d#:~:text=MobilenetSSD%20is%20an%20object%20detection,detection%20optimized%20for%20mobile%20devices), [3](https://adityakunar.medium.com/object-detection-with-ssd-and-mobilenet-aeedc5917ad0), [4](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab), [5](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
@@ -33,7 +33,7 @@ Different tpyes of convolutions: https://medium.com/codex/7-different-convolutio
 
 ### Autoencoders
 ##### To Do:
-- De-noising an image and or sound
+- (READY) De-noising an image and or sound
 - Add color to a BW image
 - mnist to 3D volume [1](https://www.kaggle.com/daavoo/3d-mnist)
 ##### Ideas:
@@ -47,11 +47,11 @@ General Resources: [1](https://www.youtube.com/watch?v=iX5V1WpxxkY), [2](http://
 
 [Awesome-RNNs](https://github.com/kjw0612/awesome-rnn)
 
-Sequence model type explaniations: [1](https://machinelearningmastery.com/models-sequence-prediction-recurrent-neural-networks/), [2](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html), [3](https://jinglescode.github.io/2020/05/21/three-types-sequence-prediction-problems/), [4](https://wandb.ai/ayush-thakur/dl-question-bank/reports/LSTM-RNN-in-Keras-Examples-of-One-to-Many-Many-to-One-Many-to-Many---VmlldzoyMDIzOTM)
+Sequence model type explaniations: [1](https://machinelearningmastery.com/models-sequence-prediction-recurrent-neural-networks/), [2](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html), [3](https://jinglescode.github.io/2020/05/21/three-types-sequence-prediction-problems/), [4](https://wandb.ai/ayush-thakur/dl-question-bank/reports/LSTM-RNN-in-Keras-Examples-of-One-to-Many-Many-to-One-Many-to-Many---VmlldzoyMDIzOTM). [5](https://towardsdatascience.com/exploring-wild-west-of-natural-language-generation-from-n-gram-and-rnns-to-seq2seq-2e816edd89c6)
 ##### To do:
-- TV script (one to many, just a decoder?)
-- Word to vector (negative sampling explored) [1](https://gist.github.com/GavinXing/9954ea846072e115bb07d9758892382c), [2](https://stackoverflow.com/questions/62456558/is-one-hot-encoding-required-for-using-pytorchs-cross-entropy-loss-function)
-- Sentiment analysis of movie reviews (many to one, just an encoder?) [1](https://stackoverflow.com/questions/54892813/what-is-the-difference-between-sequence-to-sequence-and-sequence-to-one-regressi)
+- (READY) TV script (one to many, just a decoder?)
+- (READY) Word to vector (negative sampling explored) [1](https://gist.github.com/GavinXing/9954ea846072e115bb07d9758892382c), [2](https://stackoverflow.com/questions/62456558/is-one-hot-encoding-required-for-using-pytorchs-cross-entropy-loss-function)
+- (READY) Sentiment analysis of movie reviews (many to one, just an encoder?) [1](https://stackoverflow.com/questions/54892813/what-is-the-difference-between-sequence-to-sequence-and-sequence-to-one-regressi)
 - project with seq2seq without attention (translation in order to compare to w/ attention?)
 - Translation with Attention project (seq2seq w/ attention) + class activation map of attention matrix as sentence is translated [1](https://www.tensorflow.org/text/tutorials/nmt_with_attention), [2](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html), [3](https://www.quora.com/Why-in-a-seq2seq-RNN-model-do-we-ignore-the-output-of-the-encoder-and-just-pass-to-the-decoder-the-state-of-the-encoder), [4](http://blog.echen.me/2017/05/30/exploring-lstms/)
 - Image captioning with attention, visualizing focused parts of image attention is given to [1](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
