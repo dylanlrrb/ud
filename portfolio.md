@@ -1,4 +1,5 @@
 ### Machine Learning
+- [applied machine learing](http://madsjulia.github.io/Mads.jl/Examples/blind_source_separation/)
 ##### To do:
 - (READY) Supervised learning final
 - (READY) unsupervised learning final
@@ -20,7 +21,7 @@ Different tpyes of convolutions: https://medium.com/codex/7-different-convolutio
 - (READY) backprop painting [1](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html)
 - Dermatologist AI
 - (READY) cat/dog classifier in tensorflow (DEMO)
-- Class activation Map/ Saliency Map/ Attribution Maps [1](https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d), [2](https://openaccess.thecvf.com/content/ICCV2021/papers/Ruiz_Generating_Attribution_Maps_With_Disentangled_Masked_Backpropagation_ICCV_2021_paper.pdf), [3](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce)
+- Class activation Map/ Saliency Map/ Attribution Maps [1](https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d), [2](https://openaccess.thecvf.com/content/ICCV2021/papers/Ruiz_Generating_Attribution_Maps_With_Disentangled_Masked_Backpropagation_ICCV_2021_paper.pdf), [3](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce), [4](https://github.com/jacobgil/pytorch-grad-cam)
 - View at feature maps in a real time web app (DEMO) [1](https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573), [2](https://experiments.withgoogle.com/what-neural-nets-see), [3](https://discuss.pytorch.org/t/how-to-access-input-output-activations-of-a-layer-given-its-parameters-names/53772)
 - Multi box detector using mobile net + demo app (first exporation in pytorch then implementationin a web app) [1](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection), [2](https://medium.com/axinc-ai/mobilenetssd-a-machine-learning-model-for-fast-object-detection-37352ce6da7d#:~:text=MobilenetSSD%20is%20an%20object%20detection,detection%20optimized%20for%20mobile%20devices), [3](https://adityakunar.medium.com/object-detection-with-ssd-and-mobilenet-aeedc5917ad0), [4](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab), [5](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
 - Deep dream clone [1](https://www.alanzucconi.com/2015/07/06/live-your-deepdream-how-to-recreate-the-inceptionism-effect/), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html), [3](https://www.youtube.com/watch?v=GHVaaHESrlY)
