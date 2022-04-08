@@ -25,7 +25,10 @@ Different tpyes of convolutions: https://medium.com/codex/7-different-convolutio
 - Class activation Map/ Saliency Map/ Attribution Maps [1](https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d), [2](https://openaccess.thecvf.com/content/ICCV2021/papers/Ruiz_Generating_Attribution_Maps_With_Disentangled_Masked_Backpropagation_ICCV_2021_paper.pdf), [3](https://towardsdatascience.com/visual-interpretability-for-convolutional-neural-networks-2453856210ce), [4](https://github.com/jacobgil/pytorch-grad-cam), [5](https://github.com/shinmura0/Faster-Grad-CAM)
 - View at feature maps in a real time web app (DEMO) [1](https://ravivaishnav20.medium.com/visualizing-feature-maps-using-pytorch-12a48cd1e573), [2](https://experiments.withgoogle.com/what-neural-nets-see), [3](https://discuss.pytorch.org/t/how-to-access-input-output-activations-of-a-layer-given-its-parameters-names/53772)
 - Multi box detector using mobile net + demo app (first exporation in pytorch then implementationin a web app) [1](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection), [2](https://medium.com/axinc-ai/mobilenetssd-a-machine-learning-model-for-fast-object-detection-37352ce6da7d#:~:text=MobilenetSSD%20is%20an%20object%20detection,detection%20optimized%20for%20mobile%20devices), [3](https://adityakunar.medium.com/object-detection-with-ssd-and-mobilenet-aeedc5917ad0), [4](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab), [5](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
-- Deep dream clone [1](https://www.alanzucconi.com/2015/07/06/live-your-deepdream-how-to-recreate-the-inceptionism-effect/), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html), [3](https://www.youtube.com/watch?v=GHVaaHESrlY)
+- Deep dream clone [1](https://www.alanzucconi.com/2015/07/06/live-your-deepdream-how-to-recreate-the-inceptionism-effect/), [2](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html), [3](https://www.youtube.com/watch?v=GHVaaHESrlY) [4](https://github.com/kkroening/ffmpeg-python/blob/master/examples/README.md#tensorflow-streaming)
+- Pose estimation [1](https://www.youtube.com/shorts/b_aaXLLNFBM)
+- depth estimation [1](https://www.youtube.com/watch?v=GVsUOuSjvcg)
+- segmentation [1](https://towardsdatascience.com/semantic-image-segmentation-using-fully-convolutional-networks-bf0189fa3eb8)
 
 ##### Ideas:
 - style transfer pt 2, model per style to transfer [1](https://www.youtube.com/watch?v=y54wAlE04qU)
@@ -40,7 +43,7 @@ Different tpyes of convolutions: https://medium.com/codex/7-different-convolutio
 - mnist to 3D volume [1](https://www.kaggle.com/daavoo/3d-mnist)
 ##### Ideas:
 - Autoencoder for taking a 2d image of a cell and turning it into a 3d volume [1](https://stackoverflow.com/questions/47373421/from-2d-to-3d-using-convolutional-autoencoder), [2](https://www.allencell.org/3d-cell-viewer.html), [3](https://www.allencell.org/data-downloading.html)
-- Image super resolution auto encoder
+- Image super resolution auto encoder [1](https://link.medium.com/4jjedbcX8nb), [2](https://link.medium.com/jbEwBrTX8nb), [3](https://www.coursera.org/projects/image-super-resolution-autoencoders-keras), [4](https://youtu.be/sEk7KUYCSTA)
 - Compare dimensionality reduction with autoencoders vs PCA
 - What else are autoencoders good for?
 
@@ -76,6 +79,18 @@ Sequence model type explaniations: [1](https://machinelearningmastery.com/models
 ### Generative Aveserial Neural Nets
 ##### To do:
 ##### Ideas:
+- MNIST gan
+- house numbers
+- pix2pix
+- cyclegan
+- face generation
+- semi supervised learning
+- semantic segmentation
+- edge detection
+- adding color to an image
+- super resolution
+- enhance videogame graphics
+- generate news articles (incorperating RNNs?)
 
 ### Reinforcement Learning 
 ##### To do:
@@ -83,15 +98,48 @@ Sequence model type explaniations: [1](https://machinelearningmastery.com/models
 - play atari games
 - Trading bot [1](https://link.medium.com/4m9EqKdZSnb)
 - Renforcment problems, multiagent? [1](https://neptune.ai/blog/best-benchmarks-for-reinforcement-learning), [2](https://www.reddit.com/r/MachineLearning/comments/cnrrh2/p_i_made_a_persistent_online_environment_for_ai/)
+- sentdex robot training
 
 
 ### Computer Vision
 ##### To do:
+- from scratch obj detection on coco dataset
+- transfer learning obj detection Pokedex [1](https://medium.com/swlh/build-custom-object-detection-web-application-using-tensorflow-js-d1664f96a18b)
 ##### Ideas:
 
 ### Natural Language Processing
 ##### To do:
 ##### Ideas:
+
+### Transformer Networks
+- [Transformer Neural Network: Step-By-Step Breakdown of the Beast](https://towardsdatascience.com/transformer-neural-network-step-by-step-breakdown-of-the-beast-b3e096dc857f)
+- [Do Vision Transformers See Like Convolutional Neural Networks?](https://arxiv.org/abs/2108.08810)
+##### To do:
+##### Ideas:
+
+### Attention:
+- conv nets with attention
+##### To Do:
+##### Ideas:
+
+### Tensorflow tutorials with papers
+- https://www.tensorflow.org/tutorials
+
+### 2 Minute Papers
+- sdk
+
+### Interpretability
+- asdfj
+  
+### ETL
+- lksajdf 
+
+### Fourthbrain curriculum
+- https://www.fourthbrain.ai/curriculum?utm_term=fourthbrain&utm_campaign=GGL_BRAND_EXACT&utm_source=adwords&utm_medium=ppc&hsa_acc=1778060260&hsa_cam=13799778691&hsa_grp=125801393018&hsa_ad=531963951312&hsa_src=g&hsa_tgt=kwd-1003612793020&hsa_kw=fourthbrain&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw_4-SBhCgARIsAAlegrXD0j47Rw4MVrEBR4k8vSPgtZ751q58hSsk6Dbw8uMaAIto0PhWTMgaAj5iEALw_wcB
+
+### Other:
+- Hyper networks/hyper parameter networks
+- Graph neural nets [](https://www.udemy.com/course/graph-neural-network/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.US&utm_content=deal4584&utm_term=_._ag_95911180068_._ad_532194018662_._kw__._de_m_._dm__._pl__._ti_aud-925478624155%3Adsa-52949608673_._li_1014221_._pd__._&matchtype=&gclid=Cj0KCQjwuMuRBhCJARIsAHXdnqMKDaPp8Twk5F5PMM3R9kl_Q9CbDI5Ow0ssbtblP8APfbnFser9iEwaAiA5EALw_wcB)
 
 ### Bioinformatics:
 ##### To Do:
