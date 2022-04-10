@@ -1,4 +1,5 @@
 *.zip
+*.pkl
 videos/
 .DS_Store
 __pycache__/
@@ -18,3 +19,4 @@ Udacity_AZDIAS_Subset.csv
 Udacity_CUSTOMERS_Subset.csv
 landmark_images/
 flower_photos/
+processed_celeba_small/
